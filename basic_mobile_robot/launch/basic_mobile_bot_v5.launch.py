@@ -156,7 +156,7 @@ def generate_launch_description():
     namespace=namespace,
     parameters=[{'use_sim_time': use_sim_time, 
     'robot_description': Command(['xacro ', model])}],
-    remappings=remappings,
+    # remappings=remappings,
     arguments=[default_model_path])
 
   # Launch RViz
